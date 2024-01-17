@@ -14,4 +14,8 @@ public class FormValidator {
       let predicate = NSPredicate(format: "SELF MATCHES %@", emailRegex)
       return predicate.evaluate(with: emailString)
     }
+    
+    public static func test() {
+        print("Test")
+    }
 }
