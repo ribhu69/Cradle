@@ -18,4 +18,8 @@ public class FormValidator {
     public static func test() {
         print("Test")
     }
+    
+    public static func test2() {
+        print("Test 2")
+    }
 }
