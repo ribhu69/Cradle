@@ -10,7 +10,6 @@
 		A20587232B58203F007D7384 /* Cradle.h in Headers */ = {isa = PBXBuildFile; fileRef = A20587222B58203F007D7384 /* Cradle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A205872A2B582053007D7384 /* FormValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20587292B582053007D7384 /* FormValidator.swift */; };
 		A20587712B5AD293007D7384 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20587702B5AD293007D7384 /* ColorWheel.swift */; };
-		A2411A922B62CC8600A1EB22 /* Cradle.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2411A912B62CC8600A1EB22 /* Cradle.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +17,6 @@
 		A20587222B58203F007D7384 /* Cradle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cradle.h; sourceTree = "<group>"; };
 		A20587292B582053007D7384 /* FormValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidator.swift; sourceTree = "<group>"; };
 		A20587702B5AD293007D7384 /* ColorWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
-		A2411A912B62CC8600A1EB22 /* Cradle.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cradle.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +33,7 @@
 		A20587152B58203F007D7384 = {
 			isa = PBXGroup;
 			children = (
-				A2411A912B62CC8600A1EB22 /* Cradle.podspec */,
+				A20587212B58203F007D7384 /* Cradle */,
 				A2411A902B62CA9400A1EB22 /* Sources */,
 				A20587202B58203F007D7384 /* Products */,
 				A2411A8B2B601F4200A1EB22 /* Frameworks */,
@@ -77,7 +75,6 @@
 		A2411A902B62CA9400A1EB22 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A20587212B58203F007D7384 /* Cradle */,
 				A20587472B582324007D7384 /* Validator */,
 			);
 			path = Sources;
@@ -153,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2411A922B62CC8600A1EB22 /* Cradle.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
