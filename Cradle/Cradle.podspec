@@ -8,10 +8,9 @@ Pod::Spec.new do |specs|
   specs.summary      = 'Cradle is a framework for utility.'
   specs.description  = 'Cradle framework is for utility purpose as of now. This descripton wil update in future'
   specs.author       = { "Arkaprava Ghosh" => "arkapravaghosh99@gmail.com" }
-  specs.source       = { :http => 'https://drive.google.com/uc?export=download&id=1bwpitxKF8_29skJeNiy5h4nCxZMCMq9j'}
+  specs.source       = { :http => 'https://github.com/ribhu69/Cradle/raw/main/Cradle.framework.zip'}
   specs.ios.deployment_target  = '15.0'
-  specs.source_files  = 'Cradle/*.{h}'
+  specs.source_files  = 'Sources/**/*.{swift, h}'
   specs.swift_version  = '5.8'
-  #specs.vendored_frameworks = 'Cradle.xcframework'
 
 end
